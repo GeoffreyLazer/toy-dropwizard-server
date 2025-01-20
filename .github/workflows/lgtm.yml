@@ -5,7 +5,7 @@ on:
   pull_request_review:
     types: [submitted]
 jobs:
-  build:
+  define-steps-to-build-lgtm:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@1.0.0
